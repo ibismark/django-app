@@ -6,5 +6,6 @@ from django.http import HttpResponse
 def example(response):
     return HttpResponse("hello world!!")
 
-def example2(response):
+
+def example2(response, question_id):
     return HttpResponse("ok!")
